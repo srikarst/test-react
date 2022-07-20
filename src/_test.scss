@@ -1,0 +1,25 @@
+$hierarchy-main-node-card-font-size: 0.77rem;
+$hierarchy-main-node-width: 260;
+$hierarchy-main-node-width-px: $hierarchy-main-node-width + 0px;
+$hierarchy-main-node-x: -($hierarchy-main-node-width/2);
+$chm-hierarchy-main-node-y: -30;
+$csm-hierarchy-main-node-y: -100;
+$hierarchy-main-node-card-max-height: 114;
+$hierarchy-main-node-card-max-height-px: $hierarchy-main-node-card-max-height +
+  0px;
+$hierarchy-main-node-card-body-min-height: 35;
+$hierarchy-main-node-card-body-min-height-px: $hierarchy-main-node-card-body-min-height +
+  0px;
+$hierarchy-main-node-card-header-max-height: $hierarchy-main-node-card-max-height -
+  $hierarchy-main-node-card-body-min-height;
+$hierarchy-main-node-card-header-max-height-px: $hierarchy-main-node-card-header-max-height +
+  0px;
+
+:export {
+  hierarchyMainNodeWidth: $hierarchy-main-node-width;
+  hierarchyMainNodeX: $hierarchy-main-node-x;
+  csmHierarchyMainNodeY: $csm-hierarchy-main-node-y;
+  chmHierarchyMainNodeY: $chm-hierarchy-main-node-y;
+  hierarchyMainNodeCardMaxHeight: $hierarchy-main-node-card-max-height;
+  hierarchyMainNodeCardHeaderMaxHeight: $hierarchy-main-node-card-header-max-height;
+}
